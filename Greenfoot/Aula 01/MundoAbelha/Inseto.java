@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Classe Inseto.
  * 
- * @author Rick 
+ * @author Richard Brosler 
  * @version 2025-06-05
  */
 public class Inseto extends Actor

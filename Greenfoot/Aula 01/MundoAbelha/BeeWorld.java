@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Definição da Classe BeeWolrd.
+ * Definição da Classe BeeWorld.
  * 
- * @author Rick  
+ * @author Richard Brosler 
  * @version 2025-06-04
  */
 public class BeeWorld extends World
@@ -27,24 +27,21 @@ public class BeeWorld extends World
     private void prepare()
     {
         Aranha aranha = new Aranha();
-        addObject(aranha,85,95);
-        Mosca mosca = new Mosca();
-        addObject(mosca,332,268);
+        addObject(aranha,32,33);
+        
         Abelha abelha = new Abelha();
-        addObject(abelha,327,89);
+        addObject(abelha,45,152);
+        
+        Mosca mosca = new Mosca();
+        addObject(mosca,32,271);
+        
         Mosca mosca2 = new Mosca();
-        addObject(mosca2,439,265);
+        addObject(mosca2,32,334);
+        
         Mosca mosca3 = new Mosca();
-        addObject(mosca3,212,266);
+        addObject(mosca3,32,394);
+        
         Mosca mosca4 = new Mosca();
-        addObject(mosca4,85,265);
-        mosca2.setLocation(89,335);
-        mosca3.setLocation(134,372);
-        mosca.setLocation(135,305);
-        mosca3.setLocation(152,368);
-        aranha.setLocation(25,27);
-        abelha.setLocation(84,142);
-        aranha.setLocation(147,91);
-        abelha.setLocation(266,151);
+        addObject(mosca4,32,452);
     }
 }

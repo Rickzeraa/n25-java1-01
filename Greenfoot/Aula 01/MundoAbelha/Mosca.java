@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Aqui é a Classe Mosca.
  * 
- * @author Rick
+ * @author Richard Brosler
  * @version 2025-06-03
  */
 public class Mosca extends Inseto
@@ -20,5 +20,5 @@ public class Mosca extends Inseto
             turn(45-Greenfoot.getRandomNumber(90));
         }
         verificarCanto();
-        }
     }
+}
