@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=Mosca
-comment0.text=\r\n\ Aqui\ \u00E9\ a\ Classe\ Mosca.\r\n\ \r\n\ @author\ Rick\r\n\ @version\ 2025-06-03\r\n
+comment0.text=\r\n\ Aqui\ \u00E9\ a\ Classe\ Mosca.\r\n\ \r\n\ @author\ Richard\ Brosler\r\n\ @version\ 2025-06-03\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ M\u00E9todo\ respons\u00E1vel\ pelas\ a\u00E7\u00F5es\ da\ mosca\ quando\r\n\ os\ bot\u00F5es\ Act\ ou\ Run\ s\u00E3o\ pressionados.\r\n
-numComments=2
+comment1.target=Mosca()
+comment2.params=vel\ rot
+comment2.target=Mosca(int,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ M\u00E9todo\ respons\u00E1vel\ pelas\ a\u00E7\u00F5es\ da\ mosca\ quando\r\n\ os\ bot\u00F5es\ Act\ ou\ Run\ s\u00E3o\ pressionados.\r\n
+numComments=4
