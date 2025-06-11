@@ -8,7 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BeeWorld extends World
 {
-
+    //Fields
+    private int score;
+    private final int PONTOS = 100;
+    private Abelha abelha;
     /**
      * Constructor for objects of class BeeWorld.
      * 
@@ -29,7 +32,7 @@ public class BeeWorld extends World
         Aranha aranha = new Aranha();
         addObject(aranha,32,33);
         
-        Abelha abelha = new Abelha();
+        abelha = new Abelha();
         addObject(abelha,45,152);
         
         for (int qtd=0;qtd<20;qtd++){
@@ -39,5 +42,21 @@ public class BeeWorld extends World
             int rot = Greenfoot.getRandomNumber(360)+1;
             addObject(new Mosca(vel,rot), posX, posY);
         }
+        //  Mostrando texto
+        TextoColorido txt = new TextoColorido("ARANHA VS ABELHA, QUEM VAI GANHAR?", 500, 50, 18,Color.BLUE, Color.GRAY);
+        addObject(txt, 500, 50);
+    }
+    //Acessador ou getter do Score
+    public int getScore(){
+        return score;
+    }
+    
+    public void updateScore(){
+        score += PONTOS;
+        showText("Score:" + score, 100, 10);
+    }
+    
+    public Abelha getAbelha(){
+        return abelha;
     }
 }

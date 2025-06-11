@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TextoColorido
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TextoColorido\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=texto\ pX\ pY\ tam\ corTexto\ corFundo
+comment1.target=TextoColorido(java.lang.String,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment2.params=texto\ pX\ pY\ tam\ corTexto\ corFundo
+comment2.target=void\ mostrarTexto(java.lang.String,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+numComments=3
