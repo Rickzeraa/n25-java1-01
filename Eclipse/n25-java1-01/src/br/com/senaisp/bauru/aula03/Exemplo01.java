@@ -22,7 +22,7 @@ public class Exemplo01 {
         int vl2 = vl++ +5;
         System.out.println(vl + " " + vl2);
         vl = 10;
-        vl2 = ++v1 + 5;
+        vl2 = ++vl + 5;
         System.out.println(vl + " " + vl2);
 	}
 

@@ -1,7 +1,5 @@
 package br.com.senaisp.bauru.aula04;
 
-Scanner
-
 public class Exemplo02 {
 
 	public static void main(String[] args) {
@@ -18,3 +16,5 @@ public class Exemplo02 {
 		System.out.println(str01.substring(8,16));
 		//Usando o compareTo
 		System.out.println(str01.compareTo("Roberval"));
+	}
+}
